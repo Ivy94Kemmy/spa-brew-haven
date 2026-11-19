@@ -1,0 +1,98 @@
+
+.product-form-page {
+  padding: 60px 20px;
+  background-color: #f7f0e8;
+  min-height: 75vh;
+}
+
+.form-heading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form-heading h1 {
+  font-size: 2.3rem;
+  margin: 12px 0;
+  color: #2d1b14;
+}
+
+.form-heading > p:last-child {
+  color: #70594d;
+}
+
+.product-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 35px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(45, 27, 20, 0.08);
+}
+
+.product-form > label:not(.stock-checkbox) {
+  display: block;
+  margin: 18px 0 8px;
+  font-weight: bold;
+  color: #2d1b14;
+}
+
+.product-form input:not([type="checkbox"]),
+.product-form textarea {
+  width: 100%;
+  padding: 13px;
+  border: 1px solid #d8c5b5;
+  border-radius: 6px;
+  outline: none;
+}
+
+.product-form input:focus,
+.product-form textarea:focus {
+  border-color: #8b542f;
+}
+
+.product-form textarea {
+  resize: vertical;
+}
+
+.stock-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 22px 0;
+  color: #70594d;
+}
+
+.product-form button {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 6px;
+  background: #6f4029;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.product-form button:hover {
+  background: #4e2d1e;
+}
+
+.product-form button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.form-error {
+  color: #b42318;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 600px) {
+  .product-form {
+    padding: 22px;
+  }
+
+  .form-heading h1 {
+    font-size: 1.8rem;
+  }
+}

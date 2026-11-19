@@ -1,0 +1,48 @@
+{
+  "store_info": [
+    {
+      "id": 1,
+      "name": "Brew Haven",
+      "description": "Discover quality coffee from around the world.",
+      "phone_number": "+254700123456"
+    }
+  ],
+  "coffee": [
+    {
+      "id": "1",
+      "name": "Vanilla Bean",
+      "description": "Medium roast with a smooth vanilla aroma.",
+      "origin": "Colombia",
+      "price": 1200,
+      "image": "https://placehold.co/400x300?text=Vanilla+Bean",
+      "inStock": true
+    },
+    {
+      "id": "2",
+      "name": "House Blend",
+      "description": "Dark roast with a rich and bold flavor.",
+      "origin": "Vietnam",
+      "price": 1500,
+      "image": "https://placehold.co/400x300?text=House+Blend",
+      "inStock": true
+    },
+    {
+      "id": "3",
+      "name": "Arabica Gold",
+      "description": "Premium light roast with fruity notes.",
+      "origin": "Ethiopia",
+      "price": 1800,
+      "image": "https://placehold.co/400x300?text=Arabica+Gold",
+      "inStock": true
+    },
+    {
+      "id": "4",
+      "name": "Espresso Roast",
+      "description": "Strong, full-bodied coffee for espresso lovers.",
+      "origin": "Brazil",
+      "price": 1350,
+      "image": "https://placehold.co/400x300?text=Espresso+Roast",
+      "inStock": false
+    }
+  ]
+}
